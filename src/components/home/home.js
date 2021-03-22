@@ -1,11 +1,10 @@
 import React from 'react';
-//import AOS from 'aos';
-//import 'aos/dist/aos.css';
+
 import lines from '../../assets/lines.svg';
 import classes from './home.module.css';
-import image1 from '../../assets/img1.svg';
-import image2 from '../../assets/img2.svg';
-import image3 from '../../assets/img3.svg';
+import image1 from '../../assets/img1.png';
+import image2 from '../../assets/img2.png';
+import image3 from '../../assets/img3.png';
 import text from '../../assets/text.svg';
 import text2 from '../../assets/text2.svg';
 import text3 from '../../assets/text3.svg';
@@ -16,7 +15,15 @@ import text6 from '../../assets/text6.svg';
 const Home = () => {
   return (
     <div>
-      <div className={classes.canvas}></div>
+      <div className={classes.canvas}>
+        <iframe
+          title="spline"
+          src="https://my.spline.design/untitled-4d46f08ccc676b97378dd51610ff637b/"
+          frameBorder="0"
+          width="100%"
+          height="630px"
+        ></iframe>
+      </div>
 
       <section id={classes.visulization}>
         <div>

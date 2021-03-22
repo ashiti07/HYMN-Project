@@ -29,10 +29,10 @@ iframe {
 
 .image1 img {
   position: absolute;
-  top: 7rem;
+  top: 12.5rem;
   left: 7rem;
   width: 600px;
-  height: 500px;
+  height: 300px;
   border-radius: 20px;
 }
 
@@ -57,10 +57,10 @@ iframe {
 
 .image2 img {
   position: absolute;
-  top: 2rem;
+  top: 7rem;
   right: 7rem;
   width: 600px;
-  height: 500px;
+  height: 300px;
   border-radius: 20px;
 }
 
@@ -85,22 +85,22 @@ iframe {
 
 .image3 img {
   position: absolute;
-  top: 1.5rem;
+  top: 5rem;
   left: 7rem;
   width: 600px;
-  height: 500px;
+  height: 300px;
   border-radius: 20px;
 }
 
 .text5 img {
-  top: 14rem;
+  top: 12rem;
   right: 11.5rem;
   position: absolute;
   width: 500px;
 }
 
 .text6 img {
-  top: 18rem;
+  top: 15rem;
   right: 12.2rem;
   position: absolute;
   width: 350px;
