@@ -19,7 +19,7 @@ const Nav = () => {
               </NavLink>
             </li>
             <li className={classes.list}>
-              <NavLink className={classes.navLink} to="/Radio">
+              <NavLink className={classes.navLink} to="/Generation">
                 Generation
               </NavLink>
             </li>

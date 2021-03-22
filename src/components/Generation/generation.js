@@ -1,7 +1,7 @@
 import React from 'react';
 import Sequencer from './Sequencer';
 
-const radio = () => {
+const generation = () => {
   return (
     <div>
       <Sequencer></Sequencer>
@@ -9,4 +9,4 @@ const radio = () => {
   );
 };
 
-export default radio;
+export default generation;

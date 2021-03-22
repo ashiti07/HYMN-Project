@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import cx from 'classnames';
 import Synth from './Synth';
 import MNOTES from './mnotes';
-import './radio.scss';
+import './generation.scss';
 import * as mm from '@magenta/music';
 import {
   dummyNotes,
