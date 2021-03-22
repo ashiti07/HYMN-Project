@@ -1,5 +1,6 @@
-import React from 'react';
-
+import React, {useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import lines from '../../assets/lines.svg';
 import classes from './home.module.css';
 import image1 from '../../assets/img1.png';
@@ -13,6 +14,10 @@ import text5 from '../../assets/text5.svg';
 import text6 from '../../assets/text6.svg';
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({duration: 2000, delay: 500, offset: 200});
+  }, []);
+
   return (
     <div>
       <div className={classes.canvas}>
@@ -27,17 +32,17 @@ const Home = () => {
 
       <section id={classes.visulization}>
         <div>
-          <div className={classes.vLines} /*data-aos="fade-up"*/>
+          <div className={classes.vLines} data-aos="fade-up">
             <img src={lines} alt="lines"></img>
           </div>
           <div className={classes.image1}>
-            <img src={image1} alt="iamge1" /*data-aos="fade-up"*/></img>
+            <img src={image1} alt="iamge1" data-aos="fade-up"></img>
           </div>
           <div className={classes.text1}>
-            <img src={text} alt="text" /*data-aos="fade-up"*/></img>
+            <img src={text} alt="text" data-aos="fade-up"></img>
           </div>
           <div className={classes.text2}>
-            <img src={text2} alt="text" /*data-aos="fade-up"*/></img>
+            <img src={text2} alt="text" data-aos="fade-up"></img>
           </div>
         </div>
       </section>
@@ -48,13 +53,13 @@ const Home = () => {
             <img src={lines} alt="lines"></img>
           </div>
           <div className={classes.image2}>
-            <img src={image2} alt="iamge2"></img>
+            <img src={image2} alt="iamge2" data-aos="fade-up"></img>
           </div>
           <div className={classes.text3}>
-            <img src={text3} alt="text3"></img>
+            <img src={text3} alt="text3" data-aos="fade-up"></img>
           </div>
           <div className={classes.text4}>
-            <img src={text4} alt="text4"></img>
+            <img src={text4} alt="text4" data-aos="fade-up"></img>
           </div>
         </div>
       </section>
@@ -65,13 +70,13 @@ const Home = () => {
             <img src={lines} alt="lines"></img>
           </div>
           <div className={classes.image3}>
-            <img src={image3} alt="iamge3"></img>
+            <img src={image3} alt="iamge3" data-aos="fade-up"></img>
           </div>
           <div className={classes.text5}>
-            <img src={text5} alt="text5"></img>
+            <img src={text5} alt="text5" data-aos="fade-up"></img>
           </div>
           <div className={classes.text6}>
-            <img src={text6} alt="text6"></img>
+            <img src={text6} alt="text6" data-aos="fade-up"></img>
           </div>
         </div>
       </section>
