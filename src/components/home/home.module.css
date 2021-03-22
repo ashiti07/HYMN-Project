@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+.canvas {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 600px;
+}
+
+iframe {
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
+
+#visulization {
+  margin-top: 1.5rem;
+  position: relative;
+  background-color: black;
+}
+
+.vLines img {
+  margin-left: 15rem;
+  width: 800px;
+  height: 700px;
+}
+
+.image1 img {
+  position: absolute;
+  top: 7rem;
+  left: 7rem;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.text1 img {
+  top: 19rem;
+  right: 15rem;
+  position: absolute;
+  width: 400px;
+}
+
+.text2 img {
+  top: 23rem;
+  right: 12.2rem;
+  position: absolute;
+  width: 350px;
+}
+
+#recomendation {
+  position: relative;
+  background-color: black;
+}
+
+.image2 img {
+  position: absolute;
+  top: 2rem;
+  right: 7rem;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.text3 img {
+  top: 14rem;
+  left: 12rem;
+  position: absolute;
+  width: 600px;
+}
+
+.text4 img {
+  top: 20rem;
+  left: 12rem;
+  position: absolute;
+  width: 350px;
+}
+
+#generation {
+  position: relative;
+  background-color: black;
+}
+
+.image3 img {
+  position: absolute;
+  top: 1.5rem;
+  left: 7rem;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.text5 img {
+  top: 14rem;
+  right: 11.5rem;
+  position: absolute;
+  width: 500px;
+}
+
+.text6 img {
+  top: 18rem;
+  right: 12.2rem;
+  position: absolute;
+  width: 350px;
+}

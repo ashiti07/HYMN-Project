@@ -1,0 +1,32 @@
+.container {
+  border: 1px solid black;
+  background-color: black;
+}
+
+.navLink {
+  text-decoration: none;
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  /* identical to box height */
+
+  letter-spacing: -0.085em;
+  color: rgba(255, 255, 255, 0.77);
+  transition: 1s ease-in-out;
+}
+
+.navLink:hover {
+  color: #2992f3;
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: -0.02rem;
+}
+
+.list {
+  list-style: none;
+  display: inline;
+  padding-inline-start: 4rem;
+  padding-right: 25rem;
+}
