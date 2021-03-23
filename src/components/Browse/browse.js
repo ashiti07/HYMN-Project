@@ -1,11 +1,12 @@
 import React from 'react';
+import Player from './Player/Player'
 
-const browse = () => {
+const Browse = () => {
+ 
+
   return (
-    <div>
-      <h1>main Browser!</h1>
-    </div>
+    <Player />
   );
 };
 
-export default browse;
+export default Browse;

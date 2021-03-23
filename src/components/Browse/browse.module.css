@@ -1,0 +1,7 @@
+.browse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  color: rgba(255, 255, 255, 0.77);
+}
