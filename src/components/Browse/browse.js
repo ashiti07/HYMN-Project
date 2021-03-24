@@ -1,11 +1,12 @@
 import React from 'react';
-import Player from './Player/Player'
+import Player from './Player/Player';
+import style from './browse.module.css';
 
 const Browse = () => {
- 
-
   return (
-    <Player />
+    <div className={style.browse}>
+      <Player />
+    </div>
   );
 };
 
